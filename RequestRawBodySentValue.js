@@ -16,7 +16,7 @@ var RequestRawBodySentValue = function() {
 		if(this.req) {
 			return this.req.name;
 		} else {
-			return "";
+			return null;
 		}
 	}
 }
